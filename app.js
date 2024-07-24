@@ -40,7 +40,10 @@ const Validate =()=>{
   }
 
 }
-  
+reset.addEventListener('click',()=>{
+  location.reload();
+})
+
   document.querySelector('.btn1').addEventListener('click',()=>{
     clear_error();
     Validate();
